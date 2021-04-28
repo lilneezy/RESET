@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+nav {
+  background-color: #333333;
+  margin: 0;
+  position: fixed;
+  z-index: 5;
+  width:100%
+}
+nav div {
+  display: inline;
+}
+nav a {
+  color: #dddddd;
+  text-decoration: none;
+  padding: 2vh;
+  font-family: "Open Sans";
+  transition: color .6s;
+}
+#navleft {
+  float: left;
+  padding: 1vh;
+  padding-left: 3vw;
+}
+#navleft a {
+  font-size: 7vh;
+}
+#navright, #smallnavright {
+  float: right;
+  padding: 4vh;
+}
+#navright a:nth-child(1):hover, #smallnavright a:nth-child(1):hover {
+  color: #ffffff;
+}
+#navright a:nth-child(2):hover, #smallnavright a:nth-child(2):hover {
+  color: #88ff88;
+}
+#navright a:nth-child(3):hover, #smallnavright a:nth-child(3):hover {
+  color: #ff6060;
+}
+#navright a:nth-child(4):hover, #smallnavright a:nth-child(4):hover {
+  color: #50a0ff;
+}
+#smallnavright {
+  display:none;
+}
+#smallnavright a {
+  padding: 1vh;
+}
+@media screen and (max-width: 700px) {
+  #navright {
+      display:none;
+  }
+  #smallnavright {
+      display:inline;
+  }
+}
+@media screen and (orientation: portrait) {
+  #navright {
+      display:none;
+  }
+  #smallnavright {
+      display:inline;
+  }
+}
+@media screen and (max-width: 450px)  {
+  #navright {
+      display:none;
+  }
+  #smallnavright {
+      display:none;
+  }
+}
