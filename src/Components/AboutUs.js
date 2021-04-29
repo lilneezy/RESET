@@ -1,8 +1,9 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container'
 
 export default function AboutUs() {
   return (
-    <div>
+    <div class="container">
     <body>
         <div id = "titlecard">
             <p>Reinventing Education in Science, Engineering, & Technology</p>
@@ -49,15 +50,6 @@ export default function AboutUs() {
                 more accessible and less intimidating. This way, they can see
                 that coding is something they are fully capable of, as well as
                 that it can be fun and useful. </p>
-        </div>
-        <div class= "set center" id = "contact">
-            <h1>Contact.</h1>
-            <p> If you are interested in or would like to support RESET, please
-                reach out to us! Any and all help is appreciated, whether you
-                have ideas and suggestions, or wish to donate time and/or money,
-                we want to hear about it! Contact <a href="mailto:raj.shrimali@resetinitiative.org">raj.shrimali@resetinitiative.org</a> 
-                or <a href="mailto:clara.na@resetinitiative.org">clara.na@resetinitiative.org</a>
-                and we'll get back to you as soon as we can.</p>
         </div>
     </body>
     </div>
